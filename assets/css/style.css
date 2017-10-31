@@ -1,1 +1,42 @@
+body{
+	background-image: url("../images/background.jpg")
+}
+div{
+	background-color: white;
+	margin: 10px;
+	width: 60%
+}
+div{
+	border: solid 2px antiquewhite;
+	padding: 10px;
+}
+h1, h3, {
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
 
+.userTotal{
+	width: 15%;
+    background-color: darkseagreen;
+}
+.gems{
+    clear: both;  
+}
+
+div.header, div.gems{
+	background-color: darkseagreen;
+}
+div.header, div.howToPlay {
+    width: 50%;
+    background-color: darkseagreen;
+}
+
+.winsAndLoss, .targetNumber {
+	float: left;
+	width: 15%;
+	background-color: darkseagreen;
+	text-align: left;
+}
